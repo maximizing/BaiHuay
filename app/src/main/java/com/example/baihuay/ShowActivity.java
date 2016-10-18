@@ -1,10 +1,10 @@
 package com.example.baihuay;
 
-import android.icu.text.DecimalFormat;
+
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+import java.text.DecimalFormat;
 
 /**
  * Created by maximize on 10/17/2016 AD.
@@ -13,7 +13,7 @@ import android.widget.TextView;
 public class ShowActivity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show);
 
